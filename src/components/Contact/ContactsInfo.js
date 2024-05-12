@@ -1,11 +1,6 @@
-import Image from "next/image";
-
-import Location from "/public/assets/icons/contact/Location.svg";
 import Email from "/public/assets/icons/contact/Email.svg";
 import Phone from "/public/assets/icons/contact/Phone.svg";
-import download from "/public/assets/icons/Download.png";
 
-import { red_rose } from "@/app/fonts";
 import { NetworkLinks } from "../NetworkLinks";
 
 export const ContactsInfo = () => {

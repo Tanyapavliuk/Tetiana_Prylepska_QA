@@ -1,5 +1,3 @@
-import { NetworkLinks } from "./NetworkLinks";
-
 export const Footer = () => {
   return (
     <footer className='container py-8 border-t border-green'>

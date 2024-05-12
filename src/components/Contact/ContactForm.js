@@ -4,7 +4,6 @@ import { Input } from "../base/Input";
 import { Textarea } from "../base/Textarea";
 import emailjs from '@emailjs/browser';
 
-
 import { notify } from "@/utils/toast";
 
 const SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE || "";
