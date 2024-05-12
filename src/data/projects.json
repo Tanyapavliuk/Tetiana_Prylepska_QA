@@ -1,0 +1,41 @@
+[
+  {
+    "image": "/assets/images/Kovcheg.png",
+    "link":"https://www.kovcheg-shelter.com/en",
+    "title": "Kovcheg",
+    "technologies": "React, Next.js, TailwindCSS, TypeScript, Sanity",
+    "descripnion": "The shelter «Kovcheg» is a home for animals located on the shore of the Black Sea! On the website, you can help the animals and choose a pet for adoption, read information about the shelter, and happy stories about pets."
+  },
+  {
+    "image": "/assets/images/LearnLingo.png",
+    "link":"https://learn-lingo-pink.vercel.app",
+    "linkGithub":"https://github.com/Tanyapavliuk/LearnLingo",
+    "title": "LearnLingo",
+    "technologies": "React, TailwindCSS, Formik, Firebase, Vite",
+    "descripnion": "Key features of LearnLingo include user registration, teacher selection, and the ability to add preferred teachers to favorites for future sessions."
+  },
+  {
+    "image": "/assets/images/CarpTravel.png",
+    "link":"https://nextjs-carp-travel-nine.vercel.app",
+    "linkGithub":"https://github.com/Tanyapavliuk/nextjs-carpTravel",
+    "title": "CarpTravel",
+    "technologies": "HTML, TailwindCSS, Next.js 13",
+    "descripnion": "The website offers you unforgettable trips to the most beautiful parts of the Carpathians. The goal of this site provide information about the services of the company and draw new customers."
+  },
+  {
+    "image": "/assets/images/Movie.png",
+    "link":"https://tanyapavliuk.github.io/goit-react-hw-05-movies/",
+    "linkGithub":"https://github.com/Tanyapavliuk/goit-react-hw-05-movies",
+    "title": "Movie",
+    "technologies": "HTML, CSS, JS, React, API",
+    "descripnion": "The site provides information about the top 20 movies and details about actors and reviews. Also, it includes the functionality of searching movies by name."
+  },
+  {
+    "image": "/assets/images/BookShel.png",
+    "link":"https://tanyapavliuk.github.io/Book-shelf/",
+    "linkGithub":"https://github.com/Tanyapavliuk/Book-shelf",
+    "title": "Bookshelf",
+    "technologies": "HTML, CSS, JS, React, API",
+    "descripnion": "The website features a user-friendly interface that allows users to easily sort books by genres. Additionally, users have the option to create their own personalized list of favorite books. To enhance user experience, both light and dark themes have been integrated."
+  }
+]

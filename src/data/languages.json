@@ -1,0 +1,7 @@
+{
+  "title": ["Id", "Languages", "Level"],
+  "data": [
+    [1, "English", "intermediate"],
+    [2, "Ukrainian", "native"]
+  ]
+}

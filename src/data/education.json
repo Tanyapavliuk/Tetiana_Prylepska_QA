@@ -1,0 +1,9 @@
+{
+    "title": ["Id", "Education"],
+    "data": [
+      [1, "FULLSTACK developer course at GoIT "],
+      [2, "TypeScript course at ITVDN"],
+      [3, "Master's degree in Management at Zhytomyr State Technological University"]
+    ]
+  }
+  

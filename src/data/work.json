@@ -1,0 +1,7 @@
+{
+    "title": ["Id", "Company", "Position"],
+    "data": [
+      [1, "The 'Kovcheg' shelter", "Frontend Developer"],
+      [2, "SoftRyzen", "Intern Frontend Developer"]
+    ]
+  }

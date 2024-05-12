@@ -1,0 +1,9 @@
+{
+  "title": ["Id", "Skill"],
+  "data": [
+    [1, "Team player"],
+    [2, "Continuous learner"],
+    [3, "Agile-oriented"],
+    [4, "Creative"]
+  ]
+}

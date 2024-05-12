@@ -1,0 +1,7 @@
+{
+    "title": ["Id", "Hobby"],
+    "data": [
+      [1, "Running"],
+      [2, "Playing games"]
+    ]
+  }

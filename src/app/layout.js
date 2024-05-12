@@ -1,7 +1,11 @@
-import { Inter } from "next/font/google";
+import { Footer } from "@/components/Footer";
+import { poppins } from "./fonts";
 import "./globals.css";
+import { Header } from "@/components/Header";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-const inter = Inter({ subsets: ["latin"] });
+
 
 export const metadata = {
   title: "Create Next App",
@@ -10,8 +14,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html className="scroll-smooth">
+      <body className={`${poppins.className} font-normal relative flex flex-col min-h-screen bg-dark`}>
+          <Header />
+          <main className="flex-1">{children}</main>
+          <ToastContainer />
+         <Footer/>
+      </body>
     </html>
   );
 }
