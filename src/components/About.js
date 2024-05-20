@@ -6,7 +6,7 @@ import aboutBG from '/public/assets/images/aboutBG.png'
 export const About = () => {
   return (
     <section id="about" className='pt-24 lg:pt-[166px] pb-10 lg:pb-[84px] relative'>
-        <Image src={aboutBG} alt="bg" className="absolute bottom-0 md:top-0 -z-10 object-cover"/>
+        <Image src={aboutBG} alt="bg" className="absolute w-full h-full object-cover bottom-0 md:top-0 -z-10"/>
       <div className='container flex flex-col md:flex-row gap-10 lg:gap-[129px] items-center'>
         <div className="flex flex-col gap-8 md:gap-12 items-end">
           <SectionTitle main={true}>About me</SectionTitle>

@@ -10,7 +10,7 @@ export const Header = () => {
           <Navigation/>
           <div className='flex gap-3 items-center'>
             <p className='text-sm max-md:hidden'>+380634761210</p>
-            <div className='w-24 h-9 border border-green rounded-3xl flex items-center gap-2 px-1 py-1'>
+            <div className='hidden w-24 h-9 border border-green rounded-3xl items-center gap-2 px-1 py-1'>
               <span className='block w-7 h-7 bg-green rounded-full'></span>
               <span className='text-lg font-light text-green'>ENG</span>
             </div>

@@ -1,0 +1,26 @@
+[
+  {
+    "id":1, 
+    "name": "Olena Eysmont",
+    "link": "https://www.linkedin.com/in/olenaeysmont",
+    "profession": "UI-UX Designer",
+    "first_text": "I want to share my impressions of working together with our outstanding. From the very beginning of our collaboration, I felt that working with such a professional was a real pleasure.",
+    "second_text": "It is worth noting her excellent communication skills. She is always ready to share her experience, explain complex issues, and help colleagues understand the technical aspects of the project. Her openness and friendliness create an atmosphere of cooperation and mutual understanding within the team."
+  }, 
+  {
+    "id":2, 
+    "name": "Kateryna Zhurba",
+    "link": "https://www.linkedin.com/in/katerynazhurba3105",
+    "profession": "Project Manager",
+    "first_text": "I had the wonderful opportunity to work with Tetiana on a volunteer project. I am left with extremely positive impressions from our collaboration.",
+    "second_text": "Tetiana has proven herself to be a disciplined and diligent individual who easily connects with the team and always strives to deliver results to the highest standard. She is not afraid to take on responsibility and tackle challenging tasks. Additionally, when necessary, she provides the team with guidance on what needs to be improved to bring it as close as possible to the client's request."
+  }, 
+  {
+    "id":3, 
+    "name": "Pavlo Trofymovych",
+    "link": "https://www.linkedin.com/in/pavlo-trofymovych-37b3a2264",
+    "profession": "Frontend Developer",
+    "first_text": "Joining a shared project, Tetiana conducted an excellent onboarding meeting for me, clearly explaining the project goals and providing a list of technologies used.",
+    "second_text": "Tetiana is a very skilled developer who can clearly and concisely articulate her thoughts and ideas. She can replicate the design and functionality embedded in the task, creating a pleasant user experience. Additionally, Tetiana conducts code reviews excellently and helps optimize it. It's very pleasant and effective to work in a team with such a developer."
+  }
+]
