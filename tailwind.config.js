@@ -47,7 +47,7 @@ module.exports = {
         '4value': '20% 1fr 1fr 1fr',
       }, 
       boxShadow: {
-        '3xl': '0px 2px 2px rgba(32,117,110,0.9)',
+        'green': '0px 2px 2px rgba(32,117,110,0.9)',
       }
     },
   },

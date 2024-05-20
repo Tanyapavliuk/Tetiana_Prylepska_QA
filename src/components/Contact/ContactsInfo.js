@@ -21,7 +21,7 @@ export const ContactsInfo = () => {
           <p className='text-sm select-all'>+380634761210</p>
         </div>
       </li>
-      <li className='inline-flex flex-col gap-6'>
+      <li className='inline-flex flex-col gap-6 max-lg:py-10'>
         <a
           href='CV_QA_Tetiana_Prylepska.pdf'
           download
