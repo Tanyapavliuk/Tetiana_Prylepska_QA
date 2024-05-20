@@ -30,7 +30,8 @@ module.exports = {
         green: {
           DEFAULT: '#6FD7BE',
           dark: '#20756e',
-          accent:'#12211C'
+          accent:'#12211C', 
+          disable:'#508074'
         },
         dark:{
           DEFAULT:'#151713', 
