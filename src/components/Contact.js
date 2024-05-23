@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { SectionTitle } from "./base/SectionTitle";
-import { ContactForm } from "./Contact/ContactForm";
 import { ContactsInfo } from "./Contact/ContactsInfo";
 import Bg from "/public/assets/images/contactBG.png";
+import { ContactFormFormic } from "./Contact/ContactFormFormik";
 
 export const Contact = () => {
   return (
@@ -15,7 +15,7 @@ export const Contact = () => {
         <SectionTitle className='place-self-end'>Contact me</SectionTitle>
         <div className='flex flex-col md:flex-row w-full gap-12 lg:gap-28'>
           <ContactsInfo />
-          <ContactForm />
+          <ContactFormFormic/>
         </div>
       </div>
     </section>

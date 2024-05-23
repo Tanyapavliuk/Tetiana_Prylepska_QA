@@ -11,7 +11,7 @@ import Image from "next/image";
 export const Recommendation = () => {
   const [currentPage, setCurrentPage] = useState(0);
 
-  const { name, profession, first_text, second_text } = info[currentPage];
+  const { name, profession, first_text, second_text, link } = info[currentPage];
 
   const handleIncreasePage = (e) => {
     e.preventDefault()
@@ -42,7 +42,7 @@ export const Recommendation = () => {
                 <p className='text-grey-light text-lg'>{profession}</p>
               </div>
               <Link
-                href='https://www.linkedin.com/in/tanya-pavliuk'
+                href={link}
                 target='_blank'
                 className='hover:drop-shadow-[5px_2px_2px_rgba(32,117,110,1)]'
               >

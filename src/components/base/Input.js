@@ -3,28 +3,30 @@ import React from "react";
 
 export const Input = ({
   type = "text",
-  value,
-  isError = false,
+  error,
   name,
   required = false,
-  onInput,
   label = "name",
+  id,
+  ...res
 }) => {
-  const handleChangeInput = (e) => {
-    onInput(name, e.target.value);
-  };
-
   return (
     <label className='uppercase text-base'>
-      {label}{'  '}<span className={`text-green inline ${isError && 'text-red'}`}>*</span>
+      {label}
+      {"  "}
+      <span className={`text-green inline ${error && "text-red"}`}>*</span>
+      <div className="relative">
       <input
+      id={id}
         name={name}
         type={type}
-        value={value}
-        required={required}
-        className={`w-full text-lg py-3 px-6 outline-none block border border-green rounded-[80px] bg-[#212323] transition-all hover:shadow-green my-2 md:my-4 lg:mt-6 focus:caret-green ${isError&& 'border-red'}`}
-        onChange={handleChangeInput}
+        className={`w-full text-lg py-3 px-6 outline-none block border border-green rounded-[80px] bg-[#212323] transition-all hover:shadow-green my-2 md:my-4 lg:mt-6 focus:caret-green ${
+          error && "border-red"
+        }`}
+        {...res}
       />
+      <span className="absolute normal-case right-5 top-1/2 -translate-y-1/2 text-xs text-red">{error}</span>
+      </div>
     </label>
   );
 };
