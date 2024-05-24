@@ -22,35 +22,40 @@ module.exports = {
       },
     },
     extend: {
-      colors: { 
+      colors: {
         white: {
-          light: '#FFFFFF',
-          DEFAULT: '#FFF8F8',
+          light: "#FFFFFF",
+          DEFAULT: "#FFF8F8",
         },
         green: {
-          DEFAULT: '#6FD7BE',
-          dark: '#20756e',
-          accent:'#12211C', 
-          disable:'#508074'
+          DEFAULT: "#6FD7BE",
+          dark: "#20756e",
+          accent: "#12211C",
+          disable: "#508074",
         },
-        dark:{
-          DEFAULT:'#151713', 
-          dark:'#151817'
+        dark: {
+          DEFAULT: "#151713",
+          dark: "#151817",
         },
-        grey:{
-          light: '#818181',
-          DEFAULT:'#363E3C'
+        grey: {
+          light: "#818181",
+          DEFAULT: "#363E3C",
         },
-        red:'#9d344d'
+        red: "#9d344d",
       },
       gridTemplateColumns: {
-        '2value': '20% 1fr',
-        '3value': '20% 1fr 1fr',
-        '4value': '20% 1fr 1fr 1fr',
-      }, 
+        "2value": "20% 1fr",
+        "3value": "20% 1fr 1fr",
+        "4value": "20% 1fr 1fr 1fr",
+      },
       boxShadow: {
-        'green': '0px 2px 2px rgba(32,117,110,0.9)',
-      }
+        green: "0px 2px 2px rgba(32,117,110,0.9)",
+      },
+      keyframes: {
+        ping: {
+          "45%, 100%": { opacity: 0, transform: 'scale(1)' },
+        },
+      },
     },
   },
   plugins: [],

@@ -1,18 +1,17 @@
 {
   "title": ["Id", "Skill"],
   "data": [
-    [1, "HTML"],
-    [2, "CSS"],
-    [3, "SASS"],
-    [4, "Tailwind CSS"],
-    [5, "JavaScript"],
-    [6, "TypeScript"],
-    [7, "React"],
-    [8, "Next.js"],
-    [9, "Node.js"],
-    [10, "GIT"],
-    [11, "Jira"],
-    [12, "Postman"],
-    [13, "SQL"]
+    [1, "SQL"], 
+    [2, "Jira"],
+    [3, "Postman"],
+    [4, "GIT"],
+    [5, "HTML"],
+    [6, "CSS/SASS"],
+    [7, "Tailwind CSS"],
+    [8, "JavaScript"],
+    [9, "TypeScript"],
+    [10, "React"],
+    [11, "Next.js"],
+    [12, "Node.js"]
   ]
 }

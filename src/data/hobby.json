@@ -1,7 +1,8 @@
 {
     "title": ["Id", "Hobby"],
     "data": [
-      [1, "Running"],
-      [2, "Playing games"]
+      [1, "Walking for 2 hours daily"],
+      [2, "Watching movies"],
+      [3, "Playing strategy computer games"]
     ]
   }

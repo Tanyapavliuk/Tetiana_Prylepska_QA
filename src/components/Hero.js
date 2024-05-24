@@ -4,6 +4,7 @@ import Arrow from "/public/assets/icons/arrow.svg";
 import { red_rose } from "@/app/fonts";
 import Link from "next/link";
 import { NetworkLinks } from "./NetworkLinks";
+import { MainInfo } from "./MainInfo";
 
 export const Hero = () => {
   return (
@@ -14,19 +15,7 @@ export const Hero = () => {
         className='absolute top-0 w-full h-full max-md:object-center object-cover -z-10'
       />
       <div className='container'>
-        <div className='mb-12'>
-          <h1
-            className={`text-3xl md:text-5xl text-white font-light uppercase ${red_rose.className}`}
-          >
-            Tetiana <br />{" "}
-            <span className='text-4xl md:text-6xl font-bold'>Prylepska</span>
-          </h1>
-          <h2
-            className={`text-white font-light text-lx xs:text-3xl uppercase ${red_rose.className}`}
-          >
-            i am <span className='text-4xl xs:text-5xl'>QA</span>
-          </h2>
-        </div>
+        <MainInfo/>
         <div className='flex gap-4 mb-40'>
           <Link
             target='_blank'

@@ -48,7 +48,7 @@ export const Sql = () => {
   };
 
   return (
-    <section className='pt-8 md:pt-32 pb-16'>
+    <section id="skills" className='pt-8 md:pt-32 pb-16'>
       <div className='container flex flex-col'>
         <TopPanel />
         <SqlContent
