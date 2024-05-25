@@ -6,8 +6,6 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import {meta} from '@/data/metadata.js'
 
-
-
 export const metadata = meta;
 
 export default function RootLayout({ children }) {
