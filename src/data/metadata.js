@@ -21,7 +21,7 @@ const data = {
     title: title,
     description: description,
     keywords: keywords,
-    metadataBase: new URL(BASE_URL),
+    metadataBase: BASE_URL,
     alternates: {
       canonical: BASE_URL,
     },
