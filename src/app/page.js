@@ -16,7 +16,7 @@ export const metadata = {
     title: "QA Tetiana Prylepska",
     description:
       "Hello! It is the portfolio website for Tetiana Prilepska. I am a QA Engineer. Find out more about me.",
-    url: BASE_URL,
+    url: new URL(BASE_URL),
     type: "website",
     images: [
       {
