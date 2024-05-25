@@ -15,7 +15,7 @@ const data = {
 
   const { title, description, keywords, locale, images } = data;
 
-  const { BASE_URL } = "https://tetiana-prylepska-qa.vercel.app";
+  const BASE_URL = "https://tetiana-prylepska-qa.vercel.app";
 
   export const meta = {
     title: title,
