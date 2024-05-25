@@ -1,6 +1,6 @@
 const data = {
     title: 'QA Tetiana Prylepska',
-    description: 'The portfolio website for Tetiana Prylepska. ',
+    description: 'The portfolio website for Tetiana Prylepska.',
     keywords: 'QA, portfolio',
     locale: 'en_EN',
     images: [
