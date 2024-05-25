@@ -6,11 +6,18 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { meta } from "@/data/metadata.js";
 
+const BASE_URL = "https://tetiana-prylepska-qa.vercel.app";
+
 export const metadata = {
   title: "QA Tetiana Prylepska",
   description: "The portfolio website for Tetiana Prylepska.",
   keywords: "QA, portfolio",
   locale: "en_EN",
+  metadataBase: new URL(BASE_URL),
+  openGraph: {
+    type: 'website',
+    siteName: "QA Tetiana Prylepska",
+  },
   images: [
     {
       url: "/metadata/Og.jpg",
