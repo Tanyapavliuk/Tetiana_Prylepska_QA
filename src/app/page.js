@@ -4,7 +4,7 @@ import { Hero } from "@/components/Hero";
 import { Recommendation } from "@/components/Recommendation";
 import { Sql } from "@/components/Sql";
 
-const BASE_URL = "https://tetiana-prylepska-qa.vercel.app";
+const BASE_URL = "https://tetiana-prylepska-qa.vercel.app/";
 
 export const metadata = {
   title: "QA Tetiana Prylepska",
