@@ -4,7 +4,6 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { meta } from "@/data/metadata.js";
 
 const BASE_URL = "https://tetiana-prylepska-qa.vercel.app";
 
