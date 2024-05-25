@@ -19,15 +19,21 @@ export default function Home() {
 export async function generateMetadata() {
   return {
     title: 'QA Tetiana Prylepska',
-    description: "Hello! It is the portfolio website for Tetiana Prilepska. I am a QA Engineer. Find out more about me.",
+    description: "Hello! It is the portfolio website for Tetiana Prylepska. I am a QA Engineer. Find out more about me.",
     openGraph: {
       url: `/`,
       title: 'QA Tetiana Prylepska',
-      description: "Hello! It is the portfolio website for Tetiana Prilepska. I am a QA Engineer. Find out more about me.",
-
+      description: "Hello! It is the portfolio website for Tetiana Prylepska. I am a QA Engineer. Find out more about me.",
       images: [
         {
-          url: '../Og.jpg',
+          url: '../Smal_og.jpg',
+          width: 600,
+          height: 600,
+        },
+        {
+          url: '../Og.jpg', 
+          width: 1200,
+          height: 630,
         },
       ],
     },
