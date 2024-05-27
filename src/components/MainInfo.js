@@ -1,13 +1,8 @@
-'use client'
-import { motion } from "framer-motion";
 import { red_rose } from "@/app/fonts";
 
 export const MainInfo = () => {
   return (
-    <motion.div
-    initial={{ opacity: 0, x: -50 }}
-    whileInView={{ opacity: 1, x: 0 }}
-    transition={{ duration: 2 }} 
+    <div
     className='mb-12'>
       <h1
         className={`text-3xl md:text-5xl text-white font-light uppercase ${red_rose.className}`}
@@ -20,6 +15,6 @@ export const MainInfo = () => {
       >
         i am <span className='text-4xl xs:text-5xl'>QA <span className="inline-block w-0.5 h-8 bg-green animate-ping shadow-green"></span></span>
       </h2>
-    </motion.div>
+    </div>
   );
 };

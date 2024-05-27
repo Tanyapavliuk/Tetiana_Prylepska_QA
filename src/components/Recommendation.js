@@ -34,7 +34,7 @@ export const Recommendation = () => {
       <SectionTitle className='mb-12 md:mb-20'>Recommendation</SectionTitle>
       <div className="flex">
         <Image src={Bg} alt='Bg' className="max-lg:hidden w-[320px]" />
-        <div className='flex justify-between max-md:gap-4 items-center max-sm:flex-col-reverse'>
+        <div className='flex justify-between max-md:gap-4 items-center max-sm:flex-col'>
           <div className='md:w-11/12 py-6 md:pt-8 md:pb-11 px-3 xs:px-5 md:px-8 border border-green rounded-3xl'>
             <div className='mb-10 flex items-start gap-3'>
               <div>

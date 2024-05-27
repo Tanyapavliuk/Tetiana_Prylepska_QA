@@ -16,17 +16,17 @@ export const Hero = () => {
       />
       <div className='container'>
         <MainInfo/>
-        <div className='flex gap-4 mb-40'>
+        <div className='flex max-sm:flex-col max-sm:items-start gap-4 mb-40'>
           <Link
             target='_blank'
-            href='/portfolio'
-            className='py-2 px-6 text-lg text-green border border-green rounded-3xl hover:border-green-dark hover:text-white hover:bg-green-dark transition-colors'
+            href='/test-documentation'
+            className='py-2 px-3 xs:px-6 text-base xs:text-lg text-green border border-green rounded-3xl hover:border-green-dark hover:text-white hover:bg-green-dark transition-colors'
           >
-            Portfolio
+            View test documentation samples
           </Link>
           <Link
             href='/#contact'
-            className='py-2 px-6 text-lg border border-white rounded-3xl hover:border-green-dark hover:text-white hover:bg-green-dark transition-colors'
+            className='py-2 px-3 xs:px-6 text-base xs:text-lg border border-white rounded-3xl hover:border-green-dark hover:text-white hover:bg-green-dark transition-colors'
           >
             Contact me
           </Link>

@@ -19,8 +19,8 @@ export const About = () => {
       />
       <div className='container flex flex-col md:flex-row gap-10 lg:gap-[129px] items-center'>
         <motion.div
-          initial={{ opacity: 0, x: 100 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
           transition={{ duration: 2 }}
           className='flex flex-col gap-8 md:gap-12 items-end'
         >
