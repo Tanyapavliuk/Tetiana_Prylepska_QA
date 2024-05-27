@@ -1,5 +1,7 @@
+"use client";
 import { SectionTitle } from "@/components/base/SectionTitle";
 import Link from "next/link";
+import Iframe from "react-iframe";
 
 export default function Docunentation() {
   return (
@@ -20,51 +22,57 @@ export default function Docunentation() {
             <Link href='/test-documentation/#checklist'>Checklist</Link>
           </li>
           <li className='underline decoration-green underline-offset-4 hover:decoration-green-dark hover:text-green'>
+            <Link href='/test-documentation/#bugReport'>Bug Report</Link>
+          </li>
+          <li className='underline decoration-green underline-offset-4 hover:decoration-green-dark hover:text-green'>
             <Link href='/test-documentation/#decisionTable'>
               Decision Table
             </Link>
           </li>
         </ul>
         <div className='flex flex-col gap-10'>
-          <iframe
+          <Iframe
+            url='/doc/TestPlan.pdf'
             id='testPlan'
-            src='https://drive.google.com/file/d/11eC5f9SKfHn6054cg5oASYJYmthEEk6f/preview'
-            width='100%'
-            height='750'
-            allow='autoplay'
-            className="max-xs:h-96"
-          ></iframe>
-          <iframe
+            className='w-full h-[750px]'
+            display='block'
+            position='relative'
+          />
+          <Iframe
+            url='/doc/ContactForm_test_suite.pdf'
             id='testSuite'
-            src='https://drive.google.com/file/d/1hll97B2XunMCOhHMj1urXFrG_YA4f42W/preview'
-            width='100%'
-            height='750'
-            allow='autoplay'
-            className="max-xs:h-96"
-          ></iframe>
-          <iframe
-            src='https://drive.google.com/file/d/1GPD8j9CSHubBR3tECKWZ4phg-DWtuG88/preview'
-            width='100%'
-            height='750'
-            allow='autoplay'
-            className="max-xs:h-96"
-          ></iframe>
-          <iframe
+            className='w-full h-[750px]'
+            display='block'
+            position='relative'
+          />
+          <Iframe
+            url='/doc/SkillsSection.pdf'
+            id='testPlan'
+            className='w-full h-[750px]'
+            display='block'
+            position='relative'
+          />
+          <Iframe
+            url='/doc/Checklist.pdf'
             id='checklist'
-            src='https://drive.google.com/file/d/1byhR3skYgklNHJ5VLQ4oDpfe_LSBfkzi/preview'
-            width='100%'
-            height='750'
-            allow='autoplay'
-            className="max-xs:h-96"
-          ></iframe>
-          <iframe
+            className='w-full h-[750px]'
+            display='block'
+            position='relative'
+          />
+          <Iframe
+            url='/doc/BugReport.pdf'
+            id='bugReport'
+            className='w-full h-[750px]'
+            display='block'
+            position='relative'
+          />
+          <Iframe
+            url='/doc/DesTabl.pdf'
             id='decisionTable'
-            src='https://drive.google.com/file/d/1TZw9utQuXns5LDfSlGlo-U7jmygLPdxV/preview'
-            width='100%'
-            height='750'
-            className="max-xs:h-64"
-            allow='autoplay'
-          ></iframe>
+            className='w-full h-[750px]'
+            display='block'
+            position='relative'
+          />
         </div>
       </section>
     </main>
