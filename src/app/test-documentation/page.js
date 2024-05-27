@@ -16,6 +16,9 @@ export default function Docunentation() {
             <Link href='/test-documentation/#testPlan'>Test plan</Link>
           </li>
           <li className='underline decoration-green underline-offset-4 hover:decoration-green-dark hover:text-green'>
+            <Link href='/test-documentation/#requirementsTraceabilityMatrix'>Requirements Traceability Matrix</Link>
+          </li>
+          <li className='underline decoration-green underline-offset-4 hover:decoration-green-dark hover:text-green'>
             <Link href='/test-documentation/#testSuite'>Test suite</Link>
           </li>
           <li className='underline decoration-green underline-offset-4 hover:decoration-green-dark hover:text-green'>
@@ -34,42 +37,42 @@ export default function Docunentation() {
           <Iframe
             url='/doc/TestPlan.pdf'
             id='testPlan'
-            className='w-full h-[750px]'
+            className='w-full h-80 md:h-[750px]'
             display='block'
             position='relative'
           />
           <Iframe
-            url='/doc/ContactForm_test_suite.pdf'
+            url='/doc/RequirementsTraceabilityMatrix.pdf'
+            id='requirementsTraceabilityMatrix'
+            className='w-full h-80 md:h-[750px]'
+            display='block'
+            position='relative'
+          />
+          <Iframe
+            url='/doc/TestSuite.pdf'
             id='testSuite'
-            className='w-full h-[750px]'
-            display='block'
-            position='relative'
-          />
-          <Iframe
-            url='/doc/SkillsSection.pdf'
-            id='testPlan'
-            className='w-full h-[750px]'
+            className='w-full h-80 md:h-[750px]'
             display='block'
             position='relative'
           />
           <Iframe
             url='/doc/Checklist.pdf'
             id='checklist'
-            className='w-full h-[750px]'
+            className='w-full h-80 md:h-[750px]'
             display='block'
             position='relative'
           />
           <Iframe
             url='/doc/BugReport.pdf'
             id='bugReport'
-            className='w-full h-[750px]'
+            className='w-full h-80 md:h-[750px]'
             display='block'
             position='relative'
           />
           <Iframe
-            url='/doc/DesTabl.pdf'
+            url='/doc/DecisionTable.pdf'
             id='decisionTable'
-            className='w-full h-[750px]'
+            className='w-full h-80 md:h-[750px]'
             display='block'
             position='relative'
           />
