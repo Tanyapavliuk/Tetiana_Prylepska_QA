@@ -1,12 +1,14 @@
 "use client";
-import { useState } from "react";
-import { SectionTitle } from "./base/SectionTitle";
-import info from "@/data/recommendation.json";
-import { Icon } from "./base/Icon";
+import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
+
+import info from "@/data/recommendation.json";
+
 import Arrow_slider from "/public/assets/icons/Arrow-slider.svg";
 import Bg from "/public/assets/images/spring.png";
-import Image from "next/image";
+import { Icon } from "./base/Icon";
+import { SectionTitle } from "./base/SectionTitle";
 
 export const Recommendation = () => {
   const [currentPage, setCurrentPage] = useState(0);
@@ -33,7 +35,7 @@ export const Recommendation = () => {
     <section className='container my-10'>
       <SectionTitle className='mb-12 md:mb-20'>Recommendation</SectionTitle>
       <div className="flex">
-        <Image src={Bg} alt='Bg' className="max-lg:hidden w-[320px]" />
+        <Image src={Bg} alt='Bg' className="max-lg:hidden w-[320px] h-auto"/>
         <div className='flex justify-between max-md:gap-4 items-center max-sm:flex-col'>
           <div className='md:w-11/12 py-6 md:pt-8 md:pb-11 px-3 xs:px-5 md:px-8 border border-green rounded-3xl'>
             <div className='mb-10 flex items-start gap-3'>

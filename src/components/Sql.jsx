@@ -1,16 +1,17 @@
 "use client";
 import { useState } from "react";
+
+import education from "@/data/education.json";
+import hobby from "@/data/hobby.json";
+import languages from "@/data/languages.json";
+import soft from "@/data/softSkill.json";
+import tech from "@/data/techSkills.json";
+import work from "@/data/work.json";
+
 import { BottomPanel } from "./SQL/BottomPanel";
+import { SqlContent } from "./SQL/SqlContent";
 import { TopPanel } from "./SQL/TopPanel";
 import { SqlResult } from "./SqlResult";
-import { SqlContent } from "./SQL/SqlContent";
-
-import tech from "@/data/techSkills.json";
-import soft from "@/data/softSkill.json";
-import education from "@/data/education.json";
-import languages from "@/data/languages.json";
-import hobby from "@/data/hobby.json";
-import work from "@/data/work.json";
 
 const QUERIES = [
   { label: "Soft Skills", value: "soft" },
@@ -56,7 +57,7 @@ export const Sql = () => {
           currentQuery={currentQuery}
           onSelectOption={handleSelectOption}
         />
-        <BottomPanel />
+        <BottomPanel currentQuery={currentQuery}/>
         <SqlResult data={getSelectedData()} />
       </div>
     </section>

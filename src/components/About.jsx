@@ -1,10 +1,10 @@
 'use client'
-import Image from "next/image";
-import { SectionTitle } from "./base/SectionTitle";
-import tetiana from "/public/assets/images/photo.png";
-import aboutBG from "/public/assets/images/aboutBG.png";
-
 import { motion } from "framer-motion";
+import Image from "next/image";
+
+import aboutBG from "/public/assets/images/aboutBG.png";
+import tetiana from "/public/assets/images/photo.png";
+import { SectionTitle } from "./base/SectionTitle";
 
 export const About = () => {
   return (
@@ -36,7 +36,7 @@ export const About = () => {
         <Image
           src={tetiana}
           alt='Tetiana Prylepska'
-          className='w-48 md:w-72 lg:w-96'
+          className='object-contain w-48 md:w-72 lg:w-96'
         />
       </div>
     </section>
