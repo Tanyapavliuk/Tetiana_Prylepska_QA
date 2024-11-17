@@ -1,15 +1,18 @@
-import { Footer } from "@/components/Footer";
-import { poppins } from "./fonts";
-import "./globals.css";
-import { Header } from "@/components/Header";
 import { ToastContainer } from "react-toastify";
+
+import { Footer } from "@/components/Footer";
+import { Header } from "@/components/Header";
+
+import { poppins } from "./fonts";
+
+import "./globals.css";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function RootLayout({ children }) {
   return (
     <html className='scroll-smooth'>
       <body
-        className={`${poppins.className} font-normal text-white relative flex flex-col min-h-screen bg-dark bg-gradient-to-r from-slate-800 to-slate-900`}
+        className={`${poppins.className} font-normal text-white relative flex flex-col min-h-screen bg-dark bg-gradient-to-r from-dark to-slate-950`}
       >
         <Header />
         <main className='flex-1'>{children}</main>
