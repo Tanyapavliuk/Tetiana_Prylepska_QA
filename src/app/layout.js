@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
   return (
     <html className='scroll-smooth'>
       <body
-        className={`${poppins.className} font-normal text-white relative flex flex-col min-h-screen bg-dark`}
+        className={`${poppins.className} font-normal text-white relative flex flex-col min-h-screen bg-dark from-gray-800`}
       >
         <Header />
         <main className='flex-1'>{children}</main>
