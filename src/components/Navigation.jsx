@@ -31,6 +31,15 @@ export const Navigation = ({ onSelectItem }) => {
         <li>
           <Link
             onClick={onSelectItem}
+            href='/#work'
+            className='text-lg py-2 hover:text-green-dark'
+          >
+            Work experience
+          </Link>
+        </li>
+        <li>
+          <Link
+            onClick={onSelectItem}
             href='/portfolio'
             className={`text-lg py-2 hover:text-green-dark ${
               pathname === "/portfolio" ? "text-green font-bold" : ""
