@@ -1,4 +1,5 @@
 import { red_rose } from "@/app/fonts";
+
 import { Select } from "../base/Select";
 
 export const SqlContent = ({queries, currentQuery, onSelectOption}) => {
@@ -12,42 +13,42 @@ export const SqlContent = ({queries, currentQuery, onSelectOption}) => {
       <div className='flex flex-col gap-4 pl-2 xs:pl-6 sm:pl-14'>
         <div className='flex gap-3 xs:gap-8 items-center'>
           <span
-            className={`w-8 xs:w-16 flex items-center justify-between text-lg sm:text-3xl text-white ${red_rose.className}`}
+            className={`w-8 xs:w-16 flex items-center justify-between text-lg sm:text-2xl text-white ${red_rose.className}`}
           >
             1<span className='block w-2 h-2 rounded-full bg-green'></span>
           </span>
           <p className='flex items-baseline'>
             <span
-              className={`text-green text-lg sm:text-3xl mr-3 uppercase ${red_rose.className}`}
+              className={`text-green text-lg sm:text-2xl mr-3 uppercase ${red_rose.className}`}
             >
               use
             </span>
-            <span className='text-base'>tetiana_prilepska;</span>
+            <span className='text-base tracking-wider'>tetiana_prilepska;</span>
           </p>
         </div>
         <div>
-          <span className={`text-lg sm:text-3xl text-white ${red_rose.className}`}>2</span>
+          <span className={`text-lg sm:text-2xl text-white ${red_rose.className}`}>2</span>
         </div>
         <div className='flex gap-3 xs:gap-8 items-center'>
           <span
-            className={`w-8 xs:w-16 flex items-center justify-between text-lg sm:text-3xl text-white ${red_rose.className}`}
+            className={`w-8 xs:w-16 flex items-center justify-between text-lg sm:text-2xl text-white ${red_rose.className}`}
           >
             3<span className='block w-2 h-2 rounded-full bg-green'></span>
           </span>
           <span
-            className={`text-green text-lg sm:text-3xl mr-3 uppercase ${red_rose.className}`}
+            className={`text-green text-lg sm:text-2xl mr-3 uppercase ${red_rose.className}`}
           >
             select *
           </span>
         </div>
         <div className='flex gap-3 xs:gap-8 items-center'>
           <span
-            className={`min-w-8 xs:w-16 flex items-center justify-between text-lg sm:text-3xl text-white ${red_rose.className}`}
+            className={`min-w-8 xs:w-16 flex items-center justify-between text-lg sm:text-2xl text-white ${red_rose.className}`}
           >
             4
           </span>
           <span
-            className={`text-green text-lg sm:text-3xl mr-3 uppercase ${red_rose.className}`}
+            className={`text-green text-lg sm:text-2xl mr-3 uppercase ${red_rose.className}`}
           >
             from
           </span>

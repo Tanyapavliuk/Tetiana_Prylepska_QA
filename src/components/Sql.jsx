@@ -6,7 +6,6 @@ import hobby from "@/data/hobby.json";
 import languages from "@/data/languages.json";
 import soft from "@/data/softSkill.json";
 import tech from "@/data/techSkills.json";
-import work from "@/data/work.json";
 
 import { BottomPanel } from "./SQL/BottomPanel";
 import { SqlContent } from "./SQL/SqlContent";
@@ -18,8 +17,7 @@ const QUERIES = [
   { label: "Tech Skills", value: "tech" },
   { label: "Languages", value: "languages" },
   { label: "Education", value: "education" },
-  { label: "Hobby", value: "hobby" },
-  { label: "Work experience", value: "work" },
+  { label: "Hobby", value: "hobby" }
 ];
 
 export const Sql = () => {
@@ -41,8 +39,6 @@ export const Sql = () => {
         return languages;
       case "hobby":
         return hobby;
-      case "work":
-        return work;
       default:
         return tech;
     }

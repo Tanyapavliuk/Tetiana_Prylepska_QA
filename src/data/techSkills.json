@@ -2,16 +2,13 @@
   "title": ["Id", "Skill"],
   "data": [
     [1, "SQL"], 
-    [2, "Jira"],
+    [2, "Jira/AgileTest/TestRail"],
     [3, "Postman"],
     [4, "GIT"],
     [5, "HTML"],
-    [6, "CSS/SASS"],
-    [7, "Tailwind CSS"],
-    [8, "JavaScript"],
-    [9, "TypeScript"],
-    [10, "React"],
-    [11, "Next.js"],
-    [12, "Node.js"]
+    [6, "CSS/SASS/Tailwind CSS"],
+    [7, "JavaScript/TypeScript"],
+    [8, "React/Next.js"],
+    [11, "Node.js"]
   ]
 }
